@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(Imagens/Imagem\ de\ Fundo.jpg);
-    background-position: left;
+    background-image: url(Imagens/pexels-katalin-fabian-70202104-9800835.jpg);
+    background-position: center calc(-10px);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+
+
 }
