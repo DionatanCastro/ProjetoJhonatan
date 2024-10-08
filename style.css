@@ -1,6 +1,8 @@
 @media (min-width: 320px) and (max-width: 568px ) {
     header  h1{
        font-size: 1.7em;
+       position: relative;
+       left: 45%;
    }
 }
 
@@ -16,21 +18,30 @@
     --cor2:#31312F;
     --cor3:#E5E1D8;
     --cor4:#C5C5B9;
+    --cor5:#A09F8D;
 
 }
 body{
     background-color: var(--cor2);
 }
+header{
+    text-align: center;
+    display: inline;
+}
 
 h1{
+    position: relative;
+    left: 50%;
+    display: inline;
     font-family: 'Catamaran'Arial, Helvetica, sans-serif;
     font-size: 2.6em;
     text-align: center;
     color:var(--cor1) ;
     transition-duration: 2s;
+
+
 }
 h1:hover{
-    
-    color: var(--cor2);
+    color:var(--cor5);
 }
 
