@@ -12,11 +12,12 @@
     
 }
 :root{
-    --cor1:#FAF4E3;
-    --cor2:#A5A68F;
-    --cor3:#D9B2A9;
-    --cor4:#F2DBD5;
-    --cor5:#F4EEED;
+    --cor1:white;
+    --cor2:#D9B2A9;
+
+}
+body{
+    background-color: var(--cor2);
 }
 
 h1{
@@ -25,6 +26,11 @@ h1{
     text-align: center;
     color:var(--cor1) ;
 }
-body{
-    background-image: linear-gradient(-90deg,#FAF4E3,#a5a68f9b,#D9B2A9,#F2DBD5,#F4EEED);
+main{
+    margin: 0px;
+    display: block;
+    background-color: black;
+}
+h2{
+    margin: 0px;
 }
