@@ -44,6 +44,11 @@ h1{
 
 
 }
+p{
+    font-family: 'Catamaran'Arial, Helvetica, sans-serif;
+    color: var(--cor1);
+    text-align: center;
+}
 h1:hover{
     color:var(--cor5);
 }
