@@ -46,6 +46,7 @@ h1{
 }
 p{
     font-family: 'Catamaran'Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     color: var(--cor1);
     text-align: center;
 }
