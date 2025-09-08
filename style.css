@@ -5,6 +5,7 @@
        left: 50%;
        transform: translateX(-50%);
    }
+
 }
 
 @font-face {
@@ -15,7 +16,7 @@
     
 }
 :root{
-    --cor1:#E2E3DD;
+    --cor1:#c4cca0;
     --cor2:#31312F;
     --cor3:#E5E1D8;
     --cor4:#C5C5B9;
@@ -46,4 +47,7 @@ h1{
 h1:hover{
     color:var(--cor5);
 }
-
+img{
+    position: relative;
+    width:300px;
+}
